@@ -1,6 +1,6 @@
 package lesson3;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.util.AbstractSet;
 import java.util.Iterator;
@@ -116,7 +116,7 @@ public class BinaryTree<T extends Comparable<T>> extends AbstractSet<T> {
         }
     }
 
-    @NotNull
+//    @NotNull
     @Override
     public Iterator<T> iterator() {
         return new BinaryTreeIterator();
